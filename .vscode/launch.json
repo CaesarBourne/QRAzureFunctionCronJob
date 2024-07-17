@@ -6,7 +6,7 @@
       "type": "node",
       "request": "attach",
       "restart": true,
-      "port": 9229,
+      "port": 9220,
       "preLaunchTask": "func: host start"
     }
   ]
