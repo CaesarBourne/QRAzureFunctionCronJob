@@ -13,7 +13,8 @@ export async function QRNPGAuthTrigger(
 
   // Fetch the API endpoint from environment variables
   const apiEndpoint =
-    process.env.API_ENDPOINT || "http://localhost:3000/app/api/payment/auth";
+    process.env.API_ENDPOINT ||
+    "https://qrpaybackend.azurewebsites.net/app/api/payment/auth";
 
   if (!apiEndpoint) {
     context.log("API endpoint is not defined in the environment variables.");
